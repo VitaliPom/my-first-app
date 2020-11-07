@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MydirectiveDirective } from './mydirective.directive';
+import { SubcomponentComponent } from './subcomponent/subcomponent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MydirectiveDirective
+    SubcomponentComponent
   ],
   imports: [
     BrowserModule,
